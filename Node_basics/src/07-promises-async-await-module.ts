@@ -43,3 +43,17 @@ fetchUser(1)
   .catch((error: Error) => {
     console.log("Promise error", error.message);
   });
+
+async function findUser(userId: number): Promise<void> {
+  try {
+    const user = await fetchUser(userId);
+    console.log("async/await", user?.id, user?.name, user?.role);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Unknown error!";
+    console.log(message);
+  }
+}
+
+findUser(1);
+ 07
+ 
