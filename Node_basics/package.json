@@ -13,7 +13,8 @@
     "06": "tsx src/06-callbacks.ts",
     "07": "tsx src/07-promises-async-await-module.ts",
     "08": "tsx src/08-fs-sync-module.ts",
-    "09": "tsx src/09-fs-callback-promises.ts"
+    "09": "tsx src/09-fs-callback-promises.ts",
+    "10": "tsx src/10-buffers.ts"
   },
   "keywords": [],
   "author": "",
