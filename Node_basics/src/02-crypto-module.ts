@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
 
-/*built-in node js module used for security related tast, creating random UUID OR IDs,
+/*built-in node js module used for security related task, creating random UUID OR IDs,
 creating secure token, hashing data,to verify data was not changed, encrypt/decrypt*/
 
 const requestId = crypto.randomUUID();
